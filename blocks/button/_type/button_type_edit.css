@@ -1,0 +1,21 @@
+.button_type_edit {
+  width: 22px;
+  height: 22px;
+  background-image: url(./button_type_edit.svg);
+  background-size: contain;
+  transform:translateY(-2px);
+  transition: background-image .3s ease;
+}
+
+.button_type_edit:hover {
+  background-image: url(./button_type_edit-hover.svg);
+}
+
+
+@media (max-width: 767.98px) {
+  .button_type_edit {
+    width: 18px;
+    height: 18px;
+    transform:translateY(-6px);
+  }
+}

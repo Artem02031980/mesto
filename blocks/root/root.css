@@ -1,0 +1,18 @@
+:root{
+  --color-black:#000000;
+  --color-grey:#545454;
+  --color-white:#ffffff;
+}
+
+.root {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  box-sizing: border-box;
+}

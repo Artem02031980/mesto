@@ -1,0 +1,15 @@
+.content__bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0 50px 0;
+}
+
+@media (max-width: 767.98px) {
+  .content__bar {
+    flex-direction: column;
+    padding: 40px 0 35px 0;
+  }
+}
+
+

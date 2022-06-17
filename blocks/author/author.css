@@ -1,0 +1,10 @@
+.author {
+  display: flex;
+}
+
+@media (max-width: 767.98px) {
+  .author {
+    flex-direction: column;
+    /* justify-content: center; */
+  }
+}

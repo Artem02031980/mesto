@@ -1,0 +1,18 @@
+.button_type_like {
+  width: 22px;
+  height: 19px;
+  background-image: url(./button_type_like.svg);
+  background-size: contain;
+  transition: background-image .3s ease;
+}
+
+.button_type_like:hover {
+  background-image: url(./button_type_like-hover.svg);
+}
+
+.button_type_like:active,
+.button_type_like:focus {
+  background-image: url(./button_type_like-active.svg);
+}
+
+

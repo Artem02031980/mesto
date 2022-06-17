@@ -1,0 +1,12 @@
+.card__item {
+  background-color: var(--color-white);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+@media (max-width: 767.98px) {
+  .card__item {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
