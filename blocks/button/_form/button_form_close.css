@@ -1,0 +1,24 @@
+.button_form_close {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 32px;
+  height: 32px;
+  background-image: url(./button_form_close.svg);
+  background-size: contain;
+  transition: opacity .3s ease;
+}
+
+.button_form_close:hover {
+  opacity: .6;
+}
+
+
+@media (max-width: 767.98px) {
+  .button_form_close {
+    width: 20px;
+    height: 20px;
+    top: -40px;
+    right: 0;
+  }
+}

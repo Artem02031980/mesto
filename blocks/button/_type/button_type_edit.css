@@ -4,11 +4,11 @@
   background-image: url(./button_type_edit.svg);
   background-size: contain;
   transform:translateY(-2px);
-  transition: background-image .3s ease;
+  transition: opacity .3s ease;
 }
 
 .button_type_edit:hover {
-  background-image: url(./button_type_edit-hover.svg);
+  opacity: .6;
 }
 
 

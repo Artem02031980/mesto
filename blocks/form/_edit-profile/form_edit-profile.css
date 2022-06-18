@@ -1,0 +1,17 @@
+.form_edit-profile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 27vh;
+  max-width: 360px;
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+@media (max-width: 767.98px) {
+  .form_edit-profile {
+    width: calc(100% - 40px*2);
+    margin-top: 22vh;
+  }
+}

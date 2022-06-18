@@ -40,6 +40,20 @@
 @import url(../blocks/button/_type/button_type_edit.css);
 @import url(../blocks/button/_type/button_type_add.css);
 @import url(../blocks/button/_type/button_type_like.css);
+@import url(../blocks/button/_form/button_form_save.css);
+@import url(../blocks/button/_form/button_form_close.css);
+
+/*form*/
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/_edit-profile/form_edit-profile.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__add-text/form__add-text.css);
+
+/*popup*/
+@import url(../blocks/popup/popup.css);
+
+
+
 
 
 

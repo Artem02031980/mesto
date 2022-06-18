@@ -1,0 +1,19 @@
+.form__add-text {
+  color: var(--color-black);
+  font-size: 14px;
+  border:none;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  padding: 30px 0 7px 0;
+}
+
+.form__add-text:active,
+.form__add-text:focus {
+  outline: none;
+  border-bottom: 1px solid var(--color-black);
+}
+
+@media (max-width: 767.98px) {
+  .form__add-text {
+    padding-top: 35px;
+  }
+}
