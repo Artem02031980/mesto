@@ -1,6 +1,6 @@
 # Проект: Место
 
-* [Ссылка на сайт](https://artem02031980.github.io/russian-travel/)
+* [Ссылка на сайт](https://artem02031980.github.io/mesto/)
 
 ### Обзор
 
