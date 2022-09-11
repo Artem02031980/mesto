@@ -1,23 +1,23 @@
-.content {    
+.content {
     width: calc(100% - 200px*2);
-    max-width: 1280px;    
-    margin: 0 auto;    
+    max-width: 1280px;
+    margin: 0 auto;
   }
-  
+
   @media (max-width: 1279.98px) {
     .content {
-      width: calc(100% - 100px*2);    
+      width: calc(100% - 100px*2);
     }
   }
-  
+
   @media (max-width: 1023.98px) {
     .content {
-      width: calc(100% - 50px*2);    
+      width: calc(100% - 50px*2);
     }
   }
-  
+
   @media (max-width: 767.98px) {
     .content {
-      width: calc(100% - 19px*2);      
+      width: calc(100% - 19px*2);
     }
   }
