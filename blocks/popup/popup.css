@@ -1,8 +1,4 @@
 .popup {
-  /* display: none; */
-  width:100%;
-  min-height:100%;
-  position: fixed;
-  top: 0;
-  background-color: rgba(0, 0, 0, .5);
+  transform: translateY(-44.5%) scale(0);
+  transition: .4s ease;
 }
