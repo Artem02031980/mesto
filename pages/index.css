@@ -16,10 +16,12 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
+/*subtitle*/
+@import url(../blocks/subtitle/subtitle.css);
+
 /*content*/
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__bar/content__bar.css);
-@import url(../blocks/content/__subtitle/content__subtitle.css);
 @import url(../blocks/content/__button-add/content__button-add.css);
 
 /*author*/
