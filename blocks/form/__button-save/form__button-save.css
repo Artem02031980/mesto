@@ -1,19 +1,28 @@
-.button_form_save {
+.form__button-save {
+  padding: 0;
+  margin: 0;
+  border: none;
+  color: inherit;
+  font: inherit;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
   font-size: 18px;
   line-height: 1.21;
   margin-top: 50px;
   min-height: 50px;
   background-color: var(--color-black);
   color: var(--color-white);
+  border-radius: 2px;
   transition: background-color .3s ease;
 }
 
-.button_form_save:hover {
+.form__button-save:hover {
   background-color: rgba(0, 0, 0, .8);
 }
 
 @media (max-width: 767.98px) {
-  .button_form_save {
+  .form__button-save {
     font-size: 14px;
     margin-top: 45px;
     min-height: 45px;

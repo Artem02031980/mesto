@@ -1,0 +1,26 @@
+.card__button-like {
+  padding: 0;
+  margin: 0;
+  border: none;
+  color: inherit;
+  font: inherit;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  width: 22px;
+  height: 19px;
+  background-image: url(./card__button-like.svg);
+  background-size: contain;
+  transition: background-image .3s ease;
+}
+
+.card__button-like:hover {
+  background-image: url(./card__button-like-hover.svg);
+}
+
+.card__button-like:active,
+.card__button-like:focus {
+  background-image: url(./card__button-like-active.svg);
+}
+
+
