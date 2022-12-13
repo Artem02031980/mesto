@@ -8,7 +8,7 @@
   cursor: pointer;
   width: 150px;
   height: 50px;
-  background-image: url(./content__button-add.svg);
+  background-image: url(../../../images/content__button-add.svg);
   background-position: center;
   background-size: 22px;
   border: 2px solid var(--color-white);

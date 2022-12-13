@@ -16,14 +16,14 @@
   <div class="root">
 
     <header class="header">
-      <img class="header__logo" src="./img/logo.svg" alt="Логотип Mesto Russia">
+      <img class="header__logo" src="./images/logo.svg" alt="Логотип Mesto Russia">
     </header>
 
     <main class="content">
 
-      <div class="content__bar">
+      <section class="content__bar">
         <div class="author">
-          <img src="./img/avatar_01.jpg" alt="Жак-Ив Кусто" class="author__avatar">
+          <img src="./images/avatar_01.jpg" alt="Жак-Ив Кусто" class="author__avatar">
           <div class="author__profile">
             <div class="author__name-edit">
               <h1 class="author__name">Жак-Ив Кусто</h1>
@@ -33,50 +33,50 @@
           </div>
         </div>
         <button class="content__button-add" type="button"></button>
-      </div>
+      </section>
 
       <section>
         <ul class="card">
           <li class="card__item">
-            <img src="./img/card/baikal.jpg" alt="Байкал" class="card__pic">
+            <img src="./images/card/baikal.jpg" alt="Байкал" class="card__pic">
             <div class="card__text">
               <h2 class="card__title">Байкал</h2>
-              <button class="card__button-like"></button>
+              <button class="card__button-like card__button-like_active" type="button"></button>
             </div>
           </li>
           <li class="card__item">
-            <img src="./img/card/baskunchak.jpg" alt="Баскунчак" class="card__pic">
+            <img src="./images/card/baskunchak.jpg" alt="Баскунчак" class="card__pic">
             <div class="card__text">
               <h2 class="card__title">Баскунчак</h2>
-              <button class="card__button-like"></button>
+              <button class="card__button-like" type="button"></button>
             </div>
           </li>
           <li class="card__item">
-            <img src="./img/card/gizghit.jpg" alt="Гижгит" class="card__pic">
+            <img src="./images/card/gizghit.jpg" alt="Гижгит" class="card__pic">
             <div class="card__text">
               <h2 class="card__title">Гижгит</h2>
-              <button class="card__button-like"></button>
+              <button class="card__button-like" type="button"></button>
             </div>
           </li>
           <li class="card__item">
-            <img src="./img/card/kamchatka.jpg" alt="Камчатка" class="card__pic">
+            <img src="./images/card/kamchatka.jpg" alt="Камчатка" class="card__pic">
             <div class="card__text">
               <h2 class="card__title">Камчатка</h2>
-              <button class="card__button-like"></button>
+              <button class="card__button-like" type="button"></button>
             </div>
           </li>
           <li class="card__item">
-            <img src="./img/card/ladoga.jpg" alt="Ладога" class="card__pic">
+            <img src="./images/card/ladoga.jpg" alt="Ладога" class="card__pic">
             <div class="card__text">
               <h2 class="card__title">Ладога</h2>
-              <button class="card__button-like"></button>
+              <button class="card__button-like" type="button"></button>
             </div>
           </li>
           <li class="card__item">
-            <img src="./img/card/sochi.jpg" alt="Сочи" class="card__pic">
+            <img src="./images/card/sochi.jpg" alt="Сочи" class="card__pic">
             <div class="card__text">
               <h2 class="card__title">Сочи</h2>
-              <button class="card__button-like"></button>
+              <button class="card__button-like" type="button"></button>
             </div>
           </li>
         </ul>
@@ -88,20 +88,20 @@
       <p class="footer__copyright"> 2022 Mesto Russia</p>
     </footer>
 
-    <section class="popup">
+    <div class="popup">
       <div class="popup__container">
         <form class="form" name="edit-profile">
-          <h2 class="subtitle">Редактировать профиль</h2>
-          <input class="form__add-text" type="text" placeholder="Жак-Ив Кусто" id="add-one" name="author">
-          <input class="form__add-text" type="text" placeholder="Исследователь океана" id="add-two" name="biz">
+          <h2 class="popup__title">Редактировать профиль</h2>
+          <input class="form__add-text" type="text" id="add-one" name="author">
+          <input class="form__add-text" type="text" id="add-two" name="biz">
           <button class="form__button-save" type="submit">Сохранить</button>
-          <button class="popup__button-close" type="button"></button>
         </form>
+        <button class="popup__button-close" type="button"></button>
       </div>
-    </section>
+    </div>
 
   </div><!-- end root -->
 
-  <script src="./pages/index.js"></script>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>

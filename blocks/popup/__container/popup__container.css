@@ -1,9 +1,11 @@
 .popup__container {
   min-width: 430px;
+  position: relative;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15)
 }
 
 @media (max-width: 767.98px) {
-  .form {
-    max-width: 232px;
+  .popup__container {
+    min-width: 232px;
   }
 }

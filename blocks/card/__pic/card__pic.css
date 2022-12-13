@@ -1,6 +1,6 @@
 .card__pic {
   width: 100%;
-  max-height: 350px;
+  /* height: 100%; */ /*Если сделаю, пропадет описание карточек */
   object-position: center;
   object-fit: cover;
 }

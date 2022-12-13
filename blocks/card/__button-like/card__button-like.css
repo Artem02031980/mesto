@@ -9,18 +9,15 @@
   cursor: pointer;
   width: 22px;
   height: 19px;
-  background-image: url(./card__button-like.svg);
+  background-image: url(../../../images/card__button-like.svg);
   background-size: contain;
-  transition: background-image .3s ease;
+  transition: opacity .3s ease;
 }
 
 .card__button-like:hover {
-  background-image: url(./card__button-like-hover.svg);
+  opacity: 0.5;
 }
 
-.card__button-like:active,
-.card__button-like:focus {
-  background-image: url(./card__button-like-active.svg);
-}
+
 
 
