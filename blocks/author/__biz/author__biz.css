@@ -1,6 +1,10 @@
 .author__biz {
   font-size: 18px;
   line-height: 1.21;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 350px;
   padding: 0;
   margin: 0;
 }
@@ -10,5 +14,8 @@
     font-size: 14px;
     text-align: center;
     margin-bottom: 34px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
